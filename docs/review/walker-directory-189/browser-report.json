@@ -1,0 +1,128 @@
+{
+  "checks": [
+    "Rendered header/footer and complete booking section exactly equal baseline; all original destinations retained; image and Font Awesome loaded",
+    "Search is trimmed/case-insensitive, combines with pet filter; empty results preserve bookings; native keyboard select/reset and Enter search do not reload",
+    "All main-page links return 200, hero anchor exists, caregiver and booking links navigate with correct query",
+    "320/390/768/1024/1360px without overflow, equal card widths, reduced motion, zero page/request failures, exact served HTML"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "widths": [
+    {
+      "width": 320,
+      "overflow": 0,
+      "cards": [
+        {
+          "width": 286,
+          "height": 264
+        },
+        {
+          "width": 286,
+          "height": 264
+        },
+        {
+          "width": 286,
+          "height": 264
+        },
+        {
+          "width": 286,
+          "height": 264
+        }
+      ],
+      "main": 320
+    },
+    {
+      "width": 390,
+      "overflow": 0,
+      "cards": [
+        {
+          "width": 356,
+          "height": 264
+        },
+        {
+          "width": 356,
+          "height": 264
+        },
+        {
+          "width": 356,
+          "height": 264
+        },
+        {
+          "width": 356,
+          "height": 264
+        }
+      ],
+      "main": 390
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "cards": [
+        {
+          "width": 348,
+          "height": 264
+        },
+        {
+          "width": 348,
+          "height": 264
+        },
+        {
+          "width": 348,
+          "height": 264
+        },
+        {
+          "width": 348,
+          "height": 264
+        }
+      ],
+      "main": 768
+    },
+    {
+      "width": 1024,
+      "overflow": 0,
+      "cards": [
+        {
+          "width": 476,
+          "height": 264
+        },
+        {
+          "width": 476,
+          "height": 264
+        },
+        {
+          "width": 476,
+          "height": 264
+        },
+        {
+          "width": 476,
+          "height": 264
+        }
+      ],
+      "main": 1024
+    },
+    {
+      "width": 1360,
+      "overflow": 0,
+      "cards": [
+        {
+          "width": 568,
+          "height": 264
+        },
+        {
+          "width": 568,
+          "height": 264
+        },
+        {
+          "width": 568,
+          "height": 264
+        },
+        {
+          "width": 568,
+          "height": 264
+        }
+      ],
+      "main": 1360
+    }
+  ],
+  "passed": true
+}
