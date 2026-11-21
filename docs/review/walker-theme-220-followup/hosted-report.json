@@ -1,0 +1,12 @@
+{
+  "base": "https://deploy-preview-220--petsathi-nsoc.netlify.app",
+  "expectedCssSha256": "02d13a5c9d880e4ce36f31d7271f2e37af34c49135463ea00d93c45e1029e19a",
+  "actualCssSha256": "02d13a5c9d880e4ce36f31d7271f2e37af34c49135463ea00d93c45e1029e19a",
+  "errors": [],
+  "failed": [],
+  "widths": [
+    1360,
+    390
+  ],
+  "passed": true
+}

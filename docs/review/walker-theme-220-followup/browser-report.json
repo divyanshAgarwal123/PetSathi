@@ -1,0 +1,267 @@
+{
+  "checks": [
+    "Rendered header/footer and booking card content equal current-base baseline; heading decoration intentionally aligned to reference; original links preserved; real image and Font Awesome loaded",
+    "Both heading backgrounds survive the shared important white rule; Cat Index heading typography/palette; exact reference warm cream closing CTA and green booking statuses",
+    "Search is trimmed/case-insensitive, combines with pet filter; empty results preserve bookings; native keyboard select/reset and Enter search do not reload",
+    "All main-page links return 200, hero anchor exists, caregiver and booking links navigate with correct query",
+    "320/390/768/1024/1360px without overflow, equal card widths, reduced motion, zero page/request failures, exact served HTML",
+    "Header/footer DOM and all descendant computed theme/layout styles unchanged; strict screenshot pixels identical at a common origin over the whole-pixel component interior (fractional outside bottom edge excluded)"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "widths": [
+    {
+      "width": 320,
+      "overflow": 0,
+      "cards": [
+        {
+          "width": 286,
+          "height": 259.28125
+        },
+        {
+          "width": 286,
+          "height": 259.28125
+        },
+        {
+          "width": 286,
+          "height": 259.28125
+        },
+        {
+          "width": 286,
+          "height": 259.28125
+        }
+      ],
+      "main": 320
+    },
+    {
+      "width": 390,
+      "overflow": 0,
+      "cards": [
+        {
+          "width": 356,
+          "height": 236.234375
+        },
+        {
+          "width": 356,
+          "height": 236.234375
+        },
+        {
+          "width": 356,
+          "height": 236.234375
+        },
+        {
+          "width": 356,
+          "height": 236.234375
+        }
+      ],
+      "main": 390
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "cards": [
+        {
+          "width": 348,
+          "height": 236.234375
+        },
+        {
+          "width": 348,
+          "height": 236.234375
+        },
+        {
+          "width": 348,
+          "height": 236.234375
+        },
+        {
+          "width": 348,
+          "height": 236.234375
+        }
+      ],
+      "main": 768
+    },
+    {
+      "width": 1024,
+      "overflow": 0,
+      "cards": [
+        {
+          "width": 226,
+          "height": 259.28125
+        },
+        {
+          "width": 226,
+          "height": 259.28125
+        },
+        {
+          "width": 226,
+          "height": 259.28125
+        },
+        {
+          "width": 226,
+          "height": 259.28125
+        }
+      ],
+      "main": 1024
+    },
+    {
+      "width": 1360,
+      "overflow": 0,
+      "cards": [
+        {
+          "width": 272,
+          "height": 259.28125
+        },
+        {
+          "width": 272,
+          "height": 259.28125
+        },
+        {
+          "width": 272,
+          "height": 259.28125
+        },
+        {
+          "width": 272,
+          "height": 259.28125
+        }
+      ],
+      "main": 1360
+    }
+  ],
+  "theme": {
+    "headings": [
+      {
+        "background": "rgb(250, 252, 247)",
+        "font": "\"Times New Roman\", Times, serif"
+      },
+      {
+        "background": "rgb(250, 252, 247)",
+        "font": "\"Times New Roman\", Times, serif"
+      }
+    ],
+    "cta": "rgb(242, 232, 217)",
+    "badges": [
+      "rgb(234, 242, 233)",
+      "rgb(234, 242, 233)",
+      "rgb(234, 242, 233)"
+    ]
+  },
+  "referenceComparisons": [
+    {
+      "width": 320,
+      "compared": [
+        ".walker-hero",
+        "h1",
+        ".walker-photo",
+        ".walker-section-heading",
+        ".walker-section-heading h2",
+        ".walker-section-heading p",
+        ".walker-search > div",
+        ".walker-filters button",
+        ".walker-card h3",
+        ".walker-card p",
+        ".inner-cta",
+        ".inner-cta h2"
+      ]
+    },
+    {
+      "width": 390,
+      "compared": [
+        ".walker-hero",
+        "h1",
+        ".walker-photo",
+        ".walker-section-heading",
+        ".walker-section-heading h2",
+        ".walker-section-heading p",
+        ".walker-search > div",
+        ".walker-filters button",
+        ".walker-card h3",
+        ".walker-card p",
+        ".inner-cta",
+        ".inner-cta h2"
+      ]
+    },
+    {
+      "width": 768,
+      "compared": [
+        ".walker-hero",
+        "h1",
+        ".walker-photo",
+        ".walker-section-heading",
+        ".walker-section-heading h2",
+        ".walker-section-heading p",
+        ".walker-search > div",
+        ".walker-filters button",
+        ".walker-card h3",
+        ".walker-card p",
+        ".inner-cta",
+        ".inner-cta h2"
+      ]
+    },
+    {
+      "width": 1024,
+      "compared": [
+        ".walker-hero",
+        "h1",
+        ".walker-photo",
+        ".walker-section-heading",
+        ".walker-section-heading h2",
+        ".walker-section-heading p",
+        ".walker-search > div",
+        ".walker-filters button",
+        ".walker-card h3",
+        ".walker-card p",
+        ".inner-cta",
+        ".inner-cta h2"
+      ]
+    },
+    {
+      "width": 1360,
+      "compared": [
+        ".walker-hero",
+        "h1",
+        ".walker-photo",
+        ".walker-section-heading",
+        ".walker-section-heading h2",
+        ".walker-section-heading p",
+        ".walker-search > div",
+        ".walker-filters button",
+        ".walker-card h3",
+        ".walker-card p",
+        ".inner-cta",
+        ".inner-cta h2"
+      ]
+    }
+  ],
+  "shellOrigins": [
+    {
+      "selector": "#header",
+      "before": {
+        "x": 0,
+        "y": 0,
+        "width": 1360,
+        "height": 84
+      },
+      "after": {
+        "x": 0,
+        "y": -883,
+        "width": 1360,
+        "height": 84
+      }
+    },
+    {
+      "selector": "#footer",
+      "before": {
+        "x": 0,
+        "y": 2531.359375,
+        "width": 1360,
+        "height": 449.28125
+      },
+      "after": {
+        "x": 0,
+        "y": 2214.9375,
+        "width": 1360,
+        "height": 449.28125
+      }
+    }
+  ],
+  "passed": true
+}
