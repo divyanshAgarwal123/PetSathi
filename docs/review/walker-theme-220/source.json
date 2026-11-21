@@ -1,0 +1,9 @@
+{
+  "sourceHead": "3a35f06cbd35ca35850f57127d7e9b5668ab73ac",
+  "actualParent": "2d49d9916a66a4b0b0f1afe46af814fb0ae65b44",
+  "pullRequest": "https://github.com/Riya-Kharade/PetSathi/pull/220",
+  "scope": [
+    "frontend/css/walker-directory.css",
+    "frontend/pages/walker/index.html"
+  ]
+}

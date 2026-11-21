@@ -1,0 +1,180 @@
+{
+  "checks": [
+    "Rendered header/footer and complete booking content equal baseline; booking heading class intentionally themed; original links preserved; real image and Font Awesome loaded",
+    "Both heading backgrounds survive the shared important white rule; Cat Index heading typography/palette; green closing CTA and booking statuses without pink/yellow",
+    "Search is trimmed/case-insensitive, combines with pet filter; empty results preserve bookings; native keyboard select/reset and Enter search do not reload",
+    "All main-page links return 200, hero anchor exists, caregiver and booking links navigate with correct query",
+    "320/390/768/1024/1360px without overflow, equal card widths, reduced motion, zero page/request failures, exact served HTML",
+    "Header/footer DOM and all descendant computed theme/layout styles unchanged; screenshot pixels identical at a common component origin"
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "widths": [
+    {
+      "width": 320,
+      "overflow": 0,
+      "cards": [
+        {
+          "width": 286,
+          "height": 264
+        },
+        {
+          "width": 286,
+          "height": 264
+        },
+        {
+          "width": 286,
+          "height": 264
+        },
+        {
+          "width": 286,
+          "height": 264
+        }
+      ],
+      "main": 320
+    },
+    {
+      "width": 390,
+      "overflow": 0,
+      "cards": [
+        {
+          "width": 356,
+          "height": 264
+        },
+        {
+          "width": 356,
+          "height": 264
+        },
+        {
+          "width": 356,
+          "height": 264
+        },
+        {
+          "width": 356,
+          "height": 264
+        }
+      ],
+      "main": 390
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "cards": [
+        {
+          "width": 348,
+          "height": 264
+        },
+        {
+          "width": 348,
+          "height": 264
+        },
+        {
+          "width": 348,
+          "height": 264
+        },
+        {
+          "width": 348,
+          "height": 264
+        }
+      ],
+      "main": 768
+    },
+    {
+      "width": 1024,
+      "overflow": 0,
+      "cards": [
+        {
+          "width": 476,
+          "height": 264
+        },
+        {
+          "width": 476,
+          "height": 264
+        },
+        {
+          "width": 476,
+          "height": 264
+        },
+        {
+          "width": 476,
+          "height": 264
+        }
+      ],
+      "main": 1024
+    },
+    {
+      "width": 1360,
+      "overflow": 0,
+      "cards": [
+        {
+          "width": 568,
+          "height": 264
+        },
+        {
+          "width": 568,
+          "height": 264
+        },
+        {
+          "width": 568,
+          "height": 264
+        },
+        {
+          "width": 568,
+          "height": 264
+        }
+      ],
+      "main": 1360
+    }
+  ],
+  "theme": {
+    "headings": [
+      {
+        "background": "rgb(250, 252, 247)",
+        "font": "Georgia, \"Times New Roman\", serif"
+      },
+      {
+        "background": "rgb(250, 252, 247)",
+        "font": "Georgia, \"Times New Roman\", serif"
+      }
+    ],
+    "cta": "rgb(241, 244, 237)",
+    "badges": [
+      "rgb(234, 242, 233)",
+      "rgb(234, 242, 233)",
+      "rgb(234, 242, 233)"
+    ]
+  },
+  "shellOrigins": [
+    {
+      "selector": "#header",
+      "before": {
+        "x": 0,
+        "y": 0,
+        "width": 1360,
+        "height": 84
+      },
+      "after": {
+        "x": 0,
+        "y": -1408,
+        "width": 1360,
+        "height": 84
+      }
+    },
+    {
+      "selector": "#footer",
+      "before": {
+        "x": 0,
+        "y": 2283.28125,
+        "width": 1360,
+        "height": 449.28125
+      },
+      "after": {
+        "x": 0,
+        "y": 2531.359375,
+        "width": 1360,
+        "height": 449.28125
+      }
+    }
+  ],
+  "passed": true
+}
