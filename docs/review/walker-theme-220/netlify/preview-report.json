@@ -1,0 +1,25 @@
+{
+  "url": "https://deploy-preview-220--petsathi-nsoc.netlify.app/frontend/pages/walker/",
+  "checks": [
+    {
+      "width": 1360,
+      "headingBackgrounds": [
+        "rgb(250, 252, 247)",
+        "rgb(250, 252, 247)"
+      ],
+      "searchReset": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "headingBackgrounds": [
+        "rgb(250, 252, 247)",
+        "rgb(250, 252, 247)"
+      ],
+      "searchReset": true,
+      "noOverflow": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

@@ -9,3 +9,7 @@ Native browser acceptance passes trimmed/case-insensitive search, combined pet f
 ## Reproduce
 
 Serve the exact parent from one checkout on port 5410 and the source head from another on 5411 with Python http.server bound to 127.0.0.1. Install Playwright separately, set PLAYWRIGHT_MODULE to its ESM module, EVIDENCE_DIR to an existing output directory and PET_ROOT to the source checkout. Run browser-check.mjs. BEFORE_URL and PET_URL can override the two walker URLs. screenshots.mjs generates fresh desktop/mobile captures; set PLAYWRIGHT_MODULE and adjust its output directory if reproducing outside this local layout. Both use local Chrome at its default macOS path. No login or production data is used.
+
+## Hosted preview
+
+The current Netlify deploy preview passed its CI check. Its served walker CSS exactly matches the source SHA-256 recorded in netlify/source-css.json. A fresh browser also checked the two heading backgrounds, closing CTA, search/reset and overflow at 1360px and 390px without page errors; results and screenshots are retained under netlify/.
