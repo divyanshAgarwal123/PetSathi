@@ -1,0 +1,17 @@
+{
+  "issue": 221,
+  "sourceHead": "bb18afc58ebe2f3f77a8b98a7fb42e1225233530",
+  "testedViewports": [
+    1280,
+    768,
+    390
+  ],
+  "files": {
+    "after-1280-cards.png": "0b4bcd8f872585c76a81373af37619188df91281130a8d0ab1aad46dcecad9bb",
+    "after-1280-heading.png": "a9b9c5bdd536ed08d0623044d638826ad31609299dd2fbf48201251a781fa423",
+    "after-390-cta.png": "a1b79487b39037cf1ac10b31092eb561cdd97b465c5eb2808bc6b6e279186f4c",
+    "before-1280-cards.png": "a7f3e1f7d4e783a79740d92a9034777fc86f6f428e5e8cede73191ca4c4eb810",
+    "before-390-cta.png": "870802807abb328126d7862a8f450511ba773668eaaa62ae9671de24937fd3af",
+    "browser-results.json": "07118d63673af571c3e30f91c55a5950a98ff55ca3160d354b68f90ca69bcee7"
+  }
+}

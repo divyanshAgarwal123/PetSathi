@@ -1,0 +1,491 @@
+[
+  {
+    "width": 1280,
+    "pageWidth": 1280,
+    "viewport": 1280,
+    "categoryColumns": 3,
+    "breedColumns": 3,
+    "breedCards": 10,
+    "rows": 10,
+    "ctaBackground": "rgb(242, 232, 217)",
+    "images": [
+      {
+        "alt": "A relaxed domestic cat with bright eyes",
+        "ready": true,
+        "width": 1000,
+        "src": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1000&q=85",
+        "fit": "cover"
+      },
+      {
+        "alt": "Fluffy white Persian Cat",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1583795128727-6ec3642408f8?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Sleek Siamese Cat with blue eyes",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1513245543132-31f507417b26?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Majestic large Maine Coon cat",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Spotted Bengal cat with wild leopard markings",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1606214174585-fe31582dc6ee?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Cute fluffy Ragdoll cat",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Chubby cheeked British Shorthair cat",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Hairless Sphynx cat resting",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Scottish Fold cat with folded ears",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1571566882372-1598d88abd90?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Russian Blue cat with emerald eyes",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1511044568932-338cba0ad803?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "American Shorthair classic tabby cat",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1561948955-570b270e7c36?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Persian",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1583795128727-6ec3642408f8?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Siamese",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1513245543132-31f507417b26?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Maine Coon",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Bengal",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1606214174585-fe31582dc6ee?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Ragdoll",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "British Shorthair",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Sphynx",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Scottish Fold",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1571566882372-1598d88abd90?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Russian Blue",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1511044568932-338cba0ad803?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "American Shorthair",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1561948955-570b270e7c36?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      }
+    ],
+    "navigationPreserved": true,
+    "filteringAndDetails": "passed",
+    "consoleErrors": [],
+    "contentHash": "16076c711456f2b3d67399f9459fa43f58c4e50366f70feff033da1b8b914b91"
+  },
+  {
+    "width": 768,
+    "pageWidth": 768,
+    "viewport": 768,
+    "categoryColumns": 2,
+    "breedColumns": 2,
+    "breedCards": 10,
+    "rows": 10,
+    "ctaBackground": "rgb(242, 232, 217)",
+    "images": [
+      {
+        "alt": "A relaxed domestic cat with bright eyes",
+        "ready": true,
+        "width": 1000,
+        "src": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1000&q=85",
+        "fit": "cover"
+      },
+      {
+        "alt": "Fluffy white Persian Cat",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1583795128727-6ec3642408f8?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Sleek Siamese Cat with blue eyes",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1513245543132-31f507417b26?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Majestic large Maine Coon cat",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Spotted Bengal cat with wild leopard markings",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1606214174585-fe31582dc6ee?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Cute fluffy Ragdoll cat",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Chubby cheeked British Shorthair cat",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Hairless Sphynx cat resting",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Scottish Fold cat with folded ears",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1571566882372-1598d88abd90?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Russian Blue cat with emerald eyes",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1511044568932-338cba0ad803?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "American Shorthair classic tabby cat",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1561948955-570b270e7c36?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Persian",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1583795128727-6ec3642408f8?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Siamese",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1513245543132-31f507417b26?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Maine Coon",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Bengal",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1606214174585-fe31582dc6ee?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Ragdoll",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "British Shorthair",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Sphynx",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Scottish Fold",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1571566882372-1598d88abd90?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Russian Blue",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1511044568932-338cba0ad803?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "American Shorthair",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1561948955-570b270e7c36?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      }
+    ],
+    "navigationPreserved": true,
+    "filteringAndDetails": "passed",
+    "consoleErrors": [],
+    "contentHash": "16076c711456f2b3d67399f9459fa43f58c4e50366f70feff033da1b8b914b91"
+  },
+  {
+    "width": 390,
+    "pageWidth": 390,
+    "viewport": 390,
+    "categoryColumns": 1,
+    "breedColumns": 1,
+    "breedCards": 10,
+    "rows": 10,
+    "ctaBackground": "rgb(242, 232, 217)",
+    "images": [
+      {
+        "alt": "A relaxed domestic cat with bright eyes",
+        "ready": true,
+        "width": 1000,
+        "src": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1000&q=85",
+        "fit": "cover"
+      },
+      {
+        "alt": "Fluffy white Persian Cat",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1583795128727-6ec3642408f8?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Sleek Siamese Cat with blue eyes",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1513245543132-31f507417b26?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Majestic large Maine Coon cat",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Spotted Bengal cat with wild leopard markings",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1606214174585-fe31582dc6ee?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Cute fluffy Ragdoll cat",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Chubby cheeked British Shorthair cat",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Hairless Sphynx cat resting",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Scottish Fold cat with folded ears",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1571566882372-1598d88abd90?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Russian Blue cat with emerald eyes",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1511044568932-338cba0ad803?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "American Shorthair classic tabby cat",
+        "ready": true,
+        "width": 800,
+        "src": "https://images.unsplash.com/photo-1561948955-570b270e7c36?auto=format&fit=crop&w=800&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Persian",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1583795128727-6ec3642408f8?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Siamese",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1513245543132-31f507417b26?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Maine Coon",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Bengal",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1606214174585-fe31582dc6ee?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Ragdoll",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "British Shorthair",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Sphynx",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1520315342629-6ea920342047?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Scottish Fold",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1571566882372-1598d88abd90?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "Russian Blue",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1511044568932-338cba0ad803?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      },
+      {
+        "alt": "American Shorthair",
+        "ready": true,
+        "width": 120,
+        "src": "https://images.unsplash.com/photo-1561948955-570b270e7c36?auto=format&fit=crop&w=120&q=80",
+        "fit": "contain"
+      }
+    ],
+    "navigationPreserved": true,
+    "filteringAndDetails": "passed",
+    "consoleErrors": [],
+    "contentHash": "16076c711456f2b3d67399f9459fa43f58c4e50366f70feff033da1b8b914b91"
+  }
+]
