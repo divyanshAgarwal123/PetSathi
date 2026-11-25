@@ -1,0 +1,218 @@
+{
+  "issue": "https://github.com/Riya-Kharade/PetSathi/issues/315",
+  "sourceRepository": "https://github.com/divyanshAgarwal123/PetSathi",
+  "sourceHead": "3cecb9ffcef84701e735d3f39646a6c17e59f9eb",
+  "actualSourceParent": "6dbfd2dc12bb74e29a4ee2d706ad63177d275111",
+  "sourceBlobs": [
+    {
+      "path": "frontend/pages/pets/dogs/walking.html",
+      "gitBlobOid": "9df58a3286750a4d830b5a82db4b95ee24b50431"
+    }
+  ],
+  "capturedAt": "2026-11-25T08:54:39.590676+00:00",
+  "checks": {
+    "realChromeHeadCases": 3,
+    "exactParentCases": 3,
+    "widths": [
+      1440,
+      768,
+      390
+    ],
+    "allSixCardGroupsEqualDimensionsAndLeftAlignedRows": true,
+    "renderedHeaderFooterIdentical": true,
+    "allHrefAndCtaContentBackgroundUnchanged": true,
+    "javascriptErrors": 0,
+    "failedRequests": 0,
+    "inlineJavaScriptUnchangedAndSyntaxPass": true,
+    "manualScreenshotReviews": 7,
+    "stagedSecrets": 0
+  },
+  "limitations": [
+    "Genuine draft: existing Dog Walking Service link target returns404 in parent and head; issue requires original button behavior unchanged, so no destination was invented. Owner must confirm intended target or restore page.",
+    "Static HTML/CSS repository; no npm build/production transform exists. HTTP-served source is the deployment surface, not a fabricated build validation.",
+    "No automated full-page accessibility audit claimed; native keyboard controls and manual desktop/tablet/mobile review were exercised.",
+    "Initial harness assumptions about an unused empty-results class and non-unique data-size selector were corrected without changing page JavaScript; final six-case report passes."
+  ],
+  "artifacts": [
+    {
+      "path": "pet-acceptance.json",
+      "sha256": "417b90e6eec81ae56858d07c460ab0c1c227c85d5b7c91ff00b544f217c8f246",
+      "bytes": 934
+    },
+    {
+      "path": "pet-browser-report.json",
+      "sha256": "a581d92bff50e02a68a6be37ab60e8438338a54ebbb954b8d1f8706750c8d3cf",
+      "bytes": 40606
+    },
+    {
+      "path": "pet-browser.mjs",
+      "sha256": "060783aa5196adbdb1d871d1b32d67bb2d85e56677cc030a81d087ffed933429",
+      "bytes": 6421
+    },
+    {
+      "path": "pet-head-1440-benefits.png",
+      "sha256": "b87557409744a9cd0528d89da83df12790b1503358526bd7b85fa36fb40fbc80",
+      "bytes": 91677
+    },
+    {
+      "path": "pet-head-1440-cta.png",
+      "sha256": "48592d13b886e0248fcbc24ff2b1171448a76d54720de2841cd66575778afb50",
+      "bytes": 40127
+    },
+    {
+      "path": "pet-head-1440-navigation.png",
+      "sha256": "3ea28dd92fcec7a55157de2dbc7c4651d6f08bbc14709f1a5a0843877d21a443",
+      "bytes": 48228
+    },
+    {
+      "path": "pet-head-1440-safety.png",
+      "sha256": "cc1f6850c7de9995b83c32a476736ab837b3c66b358c70558ab209f00f4ab954",
+      "bytes": 161898
+    },
+    {
+      "path": "pet-head-1440-warning.png",
+      "sha256": "72ba24f37da8f3f98cca0e8b8b66a818aa6d3c11a81df2da55b59403ba49fb9c",
+      "bytes": 87296
+    },
+    {
+      "path": "pet-head-390-benefits.png",
+      "sha256": "cdef51de1ad20822d18523584180c6ccd3e7dca6855cf60448028144fff1055f",
+      "bytes": 86756
+    },
+    {
+      "path": "pet-head-390-cta.png",
+      "sha256": "38ca6d42b33ec651e6caa2ad8b93e3ea4d5313727bdf7ec97b373a0081d938c9",
+      "bytes": 35565
+    },
+    {
+      "path": "pet-head-390-navigation.png",
+      "sha256": "bd2bf2297d2c205af2921a5055636a09156eb0f2ed1f45885be44975bc89cb89",
+      "bytes": 47239
+    },
+    {
+      "path": "pet-head-390-safety.png",
+      "sha256": "7aef67b61cae9ecbb049ae30ef79b7770a216056cf274d8aa516338f99cdcfdb",
+      "bytes": 161378
+    },
+    {
+      "path": "pet-head-390-warning.png",
+      "sha256": "87ace85413fe8086b7f58a568aca85fb64c68d8128bcd648d6aafc81847ff8ba",
+      "bytes": 88893
+    },
+    {
+      "path": "pet-head-768-benefits.png",
+      "sha256": "daf07e780b99cb8e3fe049cf6d6eefeea1b7f2711e5d497b1c0a5cc3a27350dd",
+      "bytes": 89149
+    },
+    {
+      "path": "pet-head-768-cta.png",
+      "sha256": "dbd01aba2ca8d5d44e6211035252b467d56dca6d388167604a1c7e6c1305e5d1",
+      "bytes": 44544
+    },
+    {
+      "path": "pet-head-768-navigation.png",
+      "sha256": "617f611cc3344a0e15873f441164fae5d63249c4b3a563294feb23f881e6ab6c",
+      "bytes": 48302
+    },
+    {
+      "path": "pet-head-768-safety.png",
+      "sha256": "58d9aa53800ef349811d7669350472e70637b70399637a923b6b4381e6fae89a",
+      "bytes": 164875
+    },
+    {
+      "path": "pet-head-768-warning.png",
+      "sha256": "d6f8aedfc69cb432541ffa0e9f66e9b4bef7c67e6fbf7387adc24ae6957e16f7",
+      "bytes": 84559
+    },
+    {
+      "path": "pet-owned-servers-stopped.json",
+      "sha256": "14291b339c45fe370bcd516ded6744971334d16ff9ae2497fcdd2033d48d6de5",
+      "bytes": 150
+    },
+    {
+      "path": "pet-parent-1440-benefits.png",
+      "sha256": "b72454824328535c8c5d335ba9a5fd7ba6deab9568e459465bd0cdabaf91698e",
+      "bytes": 91381
+    },
+    {
+      "path": "pet-parent-1440-cta.png",
+      "sha256": "149e5fa2bfdec5e2692166c8e1ba78d648c81ba8b167384ad8288b0f5a4e169d",
+      "bytes": 40308
+    },
+    {
+      "path": "pet-parent-1440-navigation.png",
+      "sha256": "c9e146d5151001b8521f8fd0e21ec0ba9dc9507be1f49f0b57b420e5f4427cd8",
+      "bytes": 53998
+    },
+    {
+      "path": "pet-parent-1440-safety.png",
+      "sha256": "dbc82b3d13764d1a6355382a66240d413ff09c17728619673e75578e61396403",
+      "bytes": 178130
+    },
+    {
+      "path": "pet-parent-1440-warning.png",
+      "sha256": "5469469824d49b18578ebac2e455b8e24fe6dce564c66b9959585c7599560114",
+      "bytes": 87952
+    },
+    {
+      "path": "pet-parent-390-benefits.png",
+      "sha256": "c2429d4ab3f637ef257b02207245a246178a287a1a905229ab331a3d76097743",
+      "bytes": 86814
+    },
+    {
+      "path": "pet-parent-390-cta.png",
+      "sha256": "68f0d7419fb8a8f3e39fc6e0e0f5d8c82886c63183fcd0d68ecc6ace71d05d7c",
+      "bytes": 35620
+    },
+    {
+      "path": "pet-parent-390-navigation.png",
+      "sha256": "03c92d764336b2c1bba8c9dbf26d67041d209c20caba3caf22d37579231b5f1d",
+      "bytes": 50163
+    },
+    {
+      "path": "pet-parent-390-safety.png",
+      "sha256": "59fabe7fe5f871c71f6c9c1ebbc73bf0e5f992566be30568f347db521a926200",
+      "bytes": 160107
+    },
+    {
+      "path": "pet-parent-390-warning.png",
+      "sha256": "5e8b6741eaebfe43517503910d92790bd9878bcb54ba39c61cb4221b0da25080",
+      "bytes": 89292
+    },
+    {
+      "path": "pet-parent-768-benefits.png",
+      "sha256": "9278b20f28cad9c4afcc2f19c1706d93f598c750e9b763a949ce66b278004e2c",
+      "bytes": 89456
+    },
+    {
+      "path": "pet-parent-768-cta.png",
+      "sha256": "9282444c5bff5035710dd482115915854aa04f6e41b5be84a068056867eae9a8",
+      "bytes": 44941
+    },
+    {
+      "path": "pet-parent-768-navigation.png",
+      "sha256": "869fa9eccd622a1ff6c64ccaeab4c4456283645aca31442c0d44d401a95af508",
+      "bytes": 52513
+    },
+    {
+      "path": "pet-parent-768-safety.png",
+      "sha256": "5063e2e918d2185ecdae8b7f324d4f54147e2538f3c4b6f6f54d707fbdd13fec",
+      "bytes": 176413
+    },
+    {
+      "path": "pet-parent-768-warning.png",
+      "sha256": "80c20b5880ae6c5ef9deb1fd90fceaec50f2722e8b5741da2ed89aae440cdafe",
+      "bytes": 85427
+    },
+    {
+      "path": "pet-staged-secrets.txt",
+      "sha256": "ca265d9cf787c8c57305d3f9cf46d89e6a504659478b6cf6b230eaf5c1769ecd",
+      "bytes": 106
+    },
+    {
+      "path": "run-pet-browser.py",
+      "sha256": "010048cdf5b23a960a8970e8a623059292084522743a14f693f60cd810b72de8",
+      "bytes": 1026
+    }
+  ]
+}

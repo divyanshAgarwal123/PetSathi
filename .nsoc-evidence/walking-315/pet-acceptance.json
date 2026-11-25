@@ -1,0 +1,22 @@
+{
+  "inlineScriptBlocksUnchanged": 2,
+  "inlineSyntaxPass": true,
+  "uniqueIds": 33,
+  "allOriginalLinksUnchanged": true,
+  "sourceFilesChanged": [
+    "frontend/pages/pets/dogs/walking.html"
+  ],
+  "buildApplicability": "Static HTML/CSS repository with no npm build manifest. Actual HTTP-served files and exact parent exercised in real Chrome, no build output claimed.",
+  "browserPassCases": 3,
+  "parentBrowserCases": 3,
+  "manualScreensReviewed": [
+    "pet-head-1440-benefits.png",
+    "pet-head-1440-navigation.png",
+    "pet-head-1440-warning.png",
+    "pet-head-1440-cta.png",
+    "pet-head-390-navigation.png",
+    "pet-head-390-cta.png",
+    "pet-head-768-benefits.png"
+  ],
+  "baselineLimit": "Existing Dog Walking Service CTA target frontend/pages/services/dog-walking.html absent on exact parent and head. Preserve URL per issue315; draft pending owner intended destination. Surrounding headings/nav/footer unchanged."
+}
