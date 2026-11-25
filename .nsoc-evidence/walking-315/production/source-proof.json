@@ -1,0 +1,9 @@
+{
+  "exactSourceExceptSingleNetlifyPrettyUrlRewrite": true,
+  "sourceHead": "3cecb9ffcef84701e735d3f39646a6c17e59f9eb",
+  "observedRewrite": {
+    "original": "../../walker/dogs.html",
+    "deployed": "/frontend/pages/walker/dogs"
+  },
+  "noOtherByteDifference": true
+}

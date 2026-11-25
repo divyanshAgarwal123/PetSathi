@@ -25,13 +25,19 @@
     "failedRequests": 0,
     "inlineJavaScriptUnchangedAndSyntaxPass": true,
     "manualScreenshotReviews": 7,
-    "stagedSecrets": 0
+    "stagedSecrets": 0,
+    "actualNetlifyProductionHeadCases": 3,
+    "productionReferenceParentCases": 3,
+    "productionJavascriptErrors": 0,
+    "productionFailedRequests": 0,
+    "productionManualScreensReviewed": 2
   },
   "limitations": [
     "Genuine draft: existing Dog Walking Service link target returns404 in parent and head; issue requires original button behavior unchanged, so no destination was invented. Owner must confirm intended target or restore page.",
     "Static HTML/CSS repository; no npm build/production transform exists. HTTP-served source is the deployment surface, not a fabricated build validation.",
     "No automated full-page accessibility audit claimed; native keyboard controls and manual desktop/tablet/mobile review were exercised.",
-    "Initial harness assumptions about an unused empty-results class and non-unique data-size selector were corrected without changing page JavaScript; final six-case report passes."
+    "Initial harness assumptions about an unused empty-results class and non-unique data-size selector were corrected without changing page JavaScript; final six-case report passes.",
+    "Actual hosted preview also confirms original service CTA404; draft remains. Netlify rewrites the valid walker URL and appends its deployment toolbar; neither is a source edit."
   ],
   "artifacts": [
     {
@@ -213,6 +219,192 @@
       "path": "run-pet-browser.py",
       "sha256": "010048cdf5b23a960a8970e8a623059292084522743a14f693f60cd810b72de8",
       "bytes": 1026
+    },
+    {
+      "path": "production/browser.mjs",
+      "sha256": "fa3be5ecf77aeae338790dc7722a34adaece8b28eadd38994ef6a9d79faa4d41",
+      "bytes": 7275
+    },
+    {
+      "path": "production/run-browser.py",
+      "sha256": "7141f5bcfb1b94c5b964658f43e15ff1d0cd3ca23495edc3b14fccc2f09dcd81",
+      "bytes": 1059
+    },
+    {
+      "path": "production/source-proof.json",
+      "sha256": "d42d83003a0f6db82850077b915a81792d1a28d2e91b119f5f1be9722be06184",
+      "bytes": 270
+    },
+    {
+      "path": "production/preview-resolution.json",
+      "sha256": "0667e28e30065b01f5913b4b9eabaca7bee32bbeb04ced1c7bb3327d935f1389",
+      "bytes": 534
+    },
+    {
+      "path": "production/browser-report.json",
+      "sha256": "55f3ae4ff22a0a86a1ab7167fbfdc289f2a4c1cc3890e06d2728899a3196a070",
+      "bytes": 41010
+    },
+    {
+      "path": "production/owned-servers-stopped.json",
+      "sha256": "d4a960765780406190664e566c03c0d08b20cf0d29857d92e9d662f5f42a7a1c",
+      "bytes": 148
+    },
+    {
+      "path": "production/pet-parent-390-benefits.png",
+      "sha256": "c2429d4ab3f637ef257b02207245a246178a287a1a905229ab331a3d76097743",
+      "bytes": 86814
+    },
+    {
+      "path": "production/pet-head-768-safety.png",
+      "sha256": "199754706ec404b4ba45a9037dd3887b9ef8990b9ffbe73576ee94f881055cd6",
+      "bytes": 166713
+    },
+    {
+      "path": "production/pet-head-768-benefits.png",
+      "sha256": "6dd190342c809b12882ffb8cdfa18d76a112587c962be7edda3e837de8ddc298",
+      "bytes": 90949
+    },
+    {
+      "path": "production/pet-parent-1440-safety.png",
+      "sha256": "dbc82b3d13764d1a6355382a66240d413ff09c17728619673e75578e61396403",
+      "bytes": 178130
+    },
+    {
+      "path": "production/pet-parent-1440-cta.png",
+      "sha256": "149e5fa2bfdec5e2692166c8e1ba78d648c81ba8b167384ad8288b0f5a4e169d",
+      "bytes": 40308
+    },
+    {
+      "path": "production/pet-parent-1440-warning.png",
+      "sha256": "5469469824d49b18578ebac2e455b8e24fe6dce564c66b9959585c7599560114",
+      "bytes": 87952
+    },
+    {
+      "path": "production/pet-head-768-warning.png",
+      "sha256": "01545b6c287dbbdf38a0f022ad824297012f752c3553291eff04cb1eb5257dc2",
+      "bytes": 86477
+    },
+    {
+      "path": "production/pet-head-1440-warning.png",
+      "sha256": "11cfce78c318523a58a13239d40ed6ecba096bcc1ee4315d0fab4ca8b4ae3b23",
+      "bytes": 90653
+    },
+    {
+      "path": "production/pet-parent-1440-benefits.png",
+      "sha256": "b72454824328535c8c5d335ba9a5fd7ba6deab9568e459465bd0cdabaf91698e",
+      "bytes": 91381
+    },
+    {
+      "path": "production/pet-parent-768-safety.png",
+      "sha256": "5063e2e918d2185ecdae8b7f324d4f54147e2538f3c4b6f6f54d707fbdd13fec",
+      "bytes": 176413
+    },
+    {
+      "path": "production/pet-parent-768-benefits.png",
+      "sha256": "9278b20f28cad9c4afcc2f19c1706d93f598c750e9b763a949ce66b278004e2c",
+      "bytes": 89456
+    },
+    {
+      "path": "production/pet-head-390-warning.png",
+      "sha256": "1ca2779bbaa9d29ce08664482b2cc0e967a0e7db175ebc7ae8391f515d5b5203",
+      "bytes": 90578
+    },
+    {
+      "path": "production/pet-head-390-benefits.png",
+      "sha256": "2c740499f24a35c34afe4e3bec185114a68595db7ef8e344d04f85a8d93289bd",
+      "bytes": 88758
+    },
+    {
+      "path": "production/pet-head-390-navigation.png",
+      "sha256": "bd2bf2297d2c205af2921a5055636a09156eb0f2ed1f45885be44975bc89cb89",
+      "bytes": 47239
+    },
+    {
+      "path": "production/pet-head-768-cta.png",
+      "sha256": "dbd01aba2ca8d5d44e6211035252b467d56dca6d388167604a1c7e6c1305e5d1",
+      "bytes": 44544
+    },
+    {
+      "path": "production/pet-head-390-safety.png",
+      "sha256": "89f3a09aabae81bd9dfd0c1cf2b1ef45a7cbbfde4db96f04c6db37248e3c45fc",
+      "bytes": 159322
+    },
+    {
+      "path": "production/pet-parent-390-warning.png",
+      "sha256": "5e8b6741eaebfe43517503910d92790bd9878bcb54ba39c61cb4221b0da25080",
+      "bytes": 89292
+    },
+    {
+      "path": "production/pet-parent-1440-navigation.png",
+      "sha256": "c9e146d5151001b8521f8fd0e21ec0ba9dc9507be1f49f0b57b420e5f4427cd8",
+      "bytes": 53998
+    },
+    {
+      "path": "production/pet-parent-768-warning.png",
+      "sha256": "80c20b5880ae6c5ef9deb1fd90fceaec50f2722e8b5741da2ed89aae440cdafe",
+      "bytes": 85427
+    },
+    {
+      "path": "production/pet-parent-390-cta.png",
+      "sha256": "68f0d7419fb8a8f3e39fc6e0e0f5d8c82886c63183fcd0d68ecc6ace71d05d7c",
+      "bytes": 35620
+    },
+    {
+      "path": "production/pet-head-1440-benefits.png",
+      "sha256": "b87557409744a9cd0528d89da83df12790b1503358526bd7b85fa36fb40fbc80",
+      "bytes": 91677
+    },
+    {
+      "path": "production/pet-head-768-navigation.png",
+      "sha256": "6daee7c6881c6e961e6ecd3980184f58cbd75477157177f60af2cf153e3e311d",
+      "bytes": 45497
+    },
+    {
+      "path": "production/pet-head-1440-navigation.png",
+      "sha256": "241a39f7a47d709670887221afafd35f275f69626bb23e46659d42c024cece0d",
+      "bytes": 52303
+    },
+    {
+      "path": "production/pet-head-1440-cta.png",
+      "sha256": "4d3f7c8aa0171f5cca90de3631ec4d33e77dfbb7c6acbcc90e6174bce9f18246",
+      "bytes": 46859
+    },
+    {
+      "path": "production/pet-head-1440-safety.png",
+      "sha256": "695b2286aa9d8bc97567d375e9e91fc05c4d16b8292679cf5bd65ff7cee7c272",
+      "bytes": 165498
+    },
+    {
+      "path": "production/pet-head-390-cta.png",
+      "sha256": "fdff42c75b730c6255c1b2c21c28a0acf769044765ac42ef31715d696e4afd1d",
+      "bytes": 35568
+    },
+    {
+      "path": "production/pet-parent-768-navigation.png",
+      "sha256": "869fa9eccd622a1ff6c64ccaeab4c4456283645aca31442c0d44d401a95af508",
+      "bytes": 52513
+    },
+    {
+      "path": "production/pet-parent-768-cta.png",
+      "sha256": "9282444c5bff5035710dd482115915854aa04f6e41b5be84a068056867eae9a8",
+      "bytes": 44941
+    },
+    {
+      "path": "production/pet-parent-390-navigation.png",
+      "sha256": "03c92d764336b2c1bba8c9dbf26d67041d209c20caba3caf22d37579231b5f1d",
+      "bytes": 50163
+    },
+    {
+      "path": "production/pet-parent-390-safety.png",
+      "sha256": "59fabe7fe5f871c71f6c9c1ebbc73bf0e5f992566be30568f347db521a926200",
+      "bytes": 160107
     }
-  ]
+  ],
+  "productionPreview": {
+    "url": "https://deploy-preview-331--petsathi-nsoc.netlify.app/frontend/pages/pets/dogs/walking.html",
+    "head": "3cecb9ffcef84701e735d3f39646a6c17e59f9eb",
+    "netlifyStatus": "success",
+    "normalizations": "Only observed equivalent walker Pretty URL and Netlify-injected deployment toolbar outside actual footer; original local wrapper/hrefs compared strictly in development."
+  }
 }

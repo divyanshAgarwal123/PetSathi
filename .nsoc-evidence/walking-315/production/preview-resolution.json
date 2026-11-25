@@ -1,0 +1,14 @@
+[
+  {
+    "requestedUrl": "https://deploy-preview-331--petsathi-nsoc.netlify.app/frontend/pages/pets/dogs/walking.html",
+    "finalUrl": "https://deploy-preview-331--petsathi-nsoc.netlify.app/frontend/pages/pets/dogs/walking.html",
+    "status": 200,
+    "sourceSha256": "ded6c1b534b8a25f11cbcc2ab73241a1ce9464866d92e7d5686d0ee47caadf8a",
+    "matchesLocalSource": false,
+    "hasNewGrid": true
+  },
+  {
+    "requestedUrl": "https://deploy-preview-331--petsathi-nsoc.netlify.app/pages/pets/dogs/walking.html",
+    "status": 404
+  }
+]
