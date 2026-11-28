@@ -22,6 +22,10 @@
       border: 1px solid #d7e6d6; border-radius: 28px; background: #f6f9f2;
     }
     .safety-nav { background: white; box-shadow: var(--shadow); }
+    .safety-heading, .safety-cta {
+      background: radial-gradient(ellipse at top left, #eaf2e4, transparent 55%),
+        radial-gradient(ellipse at bottom right, #eaf2e4, transparent 55%), #f6f9f2;
+    }
     .safety-nav h2, .safety-heading h2, .safety-cta h2 {
       margin: .7rem 0 0; font-size: clamp(1.45rem, 4vw, 2.35rem); line-height: 1.2;
     }
@@ -38,13 +42,22 @@
     .safety-search:focus-within { outline: 2px solid var(--green); outline-offset: 2px; }
     .safety-search input:focus { outline: none; }
     .safety-links { display: flex; justify-content: center; gap: .65rem; flex-wrap: wrap; margin-top: 1rem; }
-    .safety-links a { gap: .55rem; background: #eaf5ec; color: var(--green); min-height: 44px; }
-    .safety-links a:hover, .safety-links a:focus-visible { background: var(--green); color: white; }
+    .safety-links .button {
+      display: inline-flex; align-items: center; gap: .65rem; padding: .5rem .95rem .5rem .5rem;
+      background: #eaf5ec; color: var(--ink); min-height: 44px;
+    }
+    .safety-links .button i {
+      display: grid; place-items: center; width: 2rem; height: 2rem; flex: 0 0 2rem;
+      border-radius: 50%; background: #d4eddb; color: var(--green);
+    }
+    .safety-links .button:hover, .safety-links .button:focus-visible,
+    .safety-links .button[data-unfiltered="true"] { background: var(--green); color: white; }
+    .safety-links .button:hover i, .safety-links .button:focus-visible i,
+    .safety-links .button[data-unfiltered="true"] i { background: white; }
     .safety-results { margin: .75rem 0 0; }
     .safety-nav [hidden], .safety-section[hidden] { display: none; }
     .safety-section { margin-block: clamp(2.5rem, 7vw, 5rem); scroll-margin-top: 8rem; }
     .safety-heading { margin-bottom: 1.1rem; }
-    .safety-cta { display: block; }
     .safety-cta .button { margin-top: 1rem; }
     .safety-cta p { margin-top: .5rem; }
     .safety-cards .service-card > span { color: var(--green); }
@@ -94,6 +107,9 @@
         <input type="search" id="safety-search" aria-label="Filter safety topics" placeholder="Search handling, heat, hygiene…">
       </div>
       <div class="safety-links">
+        <button type="button" class="button button-outline" id="safety-reset" hidden>
+          <i class="fa-solid fa-layer-group" aria-hidden="true"></i> All topics
+        </button>
         <a class="button button-outline" href="#essential-tips"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Essential tips</a>
         <a class="button button-outline" href="#household-hazards"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> Household hazards</a>
         <a class="button button-outline" href="#safe-handling"><i class="fa-solid fa-hand" aria-hidden="true"></i> Handling</a>
@@ -269,13 +285,13 @@
       </div>
     </section>
 
-    <section class="cta section-wrap safety-cta" aria-labelledby="safety-cta-title">
-      <div>
+    <section class="section-wrap" aria-labelledby="safety-cta-title">
+      <div class="safety-cta">
         <span class="safety-eyebrow"><i class="fa-solid fa-heart" aria-hidden="true"></i> Keep exploring</span>
         <h2 id="safety-cta-title">Build a safer reptile routine</h2>
         <p>Review the habitat and feeding needs of your species as your reptile grows.</p>
+        <a class="button" href="nutrition.html">Reptile Nutrition Guide</a>
       </div>
-      <a class="button button-light" href="nutrition.html">Reptile Nutrition Guide</a>
     </section>
   </main>
   <div id="footer"></div>
@@ -283,6 +299,7 @@
   <script>
     (() => {
       const search = document.querySelector('#safety-search');
+      const reset = document.querySelector('#safety-reset');
       const form = search.parentElement;
       const status = document.querySelector('.safety-results');
       const links = [...document.querySelectorAll('.safety-links a')];
@@ -293,6 +310,7 @@
 
       function applyFilter() {
         const terms = search.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+        reset.dataset.unfiltered = String(terms.length === 0);
         let matches = 0;
         for (const { link, section, text } of topics) {
           const shown = terms.every(term => text.includes(term));
@@ -305,12 +323,16 @@
       }
 
       search.addEventListener('input', applyFilter);
-      // Keep the hero's jump link usable even when a search hid its target.
-      document.querySelector('.hero-actions a[href="#essential-tips"]').addEventListener('click', () => {
+      function resetFilter() {
         search.value = '';
         applyFilter();
-      });
+      }
+      reset.addEventListener('click', resetFilter);
+      // Keep the hero's jump link usable even when a search hid its target.
+      document.querySelector('.hero-actions a[href="#essential-tips"]').addEventListener('click', resetFilter);
       form.hidden = false;
+      reset.hidden = false;
+      applyFilter();
     })();
   </script>
 </body>
